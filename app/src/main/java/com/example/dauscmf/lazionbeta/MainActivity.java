@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
         // DECLARATION UNTUK KITA PANGGIL AND GUNA DALAM JAVA
         btn_reghere = (Button) findViewById(R.id.btn_reghere);
+
+        // UNTUK JADIKAN BUTTON BOLEH KLIK AND PERGI ACTIVITY/ PAGE LAIN
         btn_reghere.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
