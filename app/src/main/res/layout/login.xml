@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lazion_logo"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etusername"
+                    android:textColor="#a9a9a9"
+                    android:singleLine="false"
+                    android:paddingBottom="15dp"
+                    android:visibility="visible"
+                    android:inputType="text"
+                    android:hint="Username" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/etpwd"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:hint="Password" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:id="@+id/btn_login"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="22dp"
+                    android:background="#ab3a75"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Do not have an account ?"
+                        android:textSize="17sp"
+                        android:id="@+id/tv_donthaveacc"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#3a3a3a"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Register here"
+                        android:textSize="17sp"
+                        android:id="@+id/tv_reghere"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#3a3a3a"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+
+                        android:focusable="false"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="USER REGISTRATION"
+            android:id="@+id/btn_userreg"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/color_button2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="RUNNER REGISTRATION"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/color_button2"
+            android:id="@+id/btn_runnerreg" />
+    </RelativeLayout>
+</LinearLayout>
