@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         });    }
 
     public void verfiyLogin(){
+        // DECLARATION UNTUK KITA PANGGIL AND GUNA DALAM JAVA
         etusername = (EditText) findViewById(R.id.etusername);
         etpwd = (EditText) findViewById(R.id.etpwd);
         btn_login = (Button)findViewById(R.id.btn_login);
